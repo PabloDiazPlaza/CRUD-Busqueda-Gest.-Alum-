@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1>Gestión de Alumnos</h1>
+    </div>
+    <br />
+    <div class="form-actions no-color">
+        @Html.ActionLink("Nuevo Alumno", "Crear")
+    </div>
+   
+    <div>
+        @Html.ActionLink("Buscar Alumno", "Buscar")
+    </div>
+    <br />
+    <div>
+        @Html.ActionLink("Inicio", "Index", "Home")
+    </div>
+</body>
+</html>
+
